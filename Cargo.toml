@@ -1,0 +1,12 @@
+[package]
+name = "basic-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4"
+anyhow = "1.0"
+tokio = { version = "1.20", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+clap = { version = "4.1.4", features = ["derive"] }
+fern = { version = "0.6.1", features = ["colored"] }
